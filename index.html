@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caserne de Sapeurs-Pompiers Lyon</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/fire-icon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenue à la Caserne de Sapeurs-Pompiers Lyon</h1>
+            <nav>
+                <ul>
+                    <li><a href="#reglement">Règlement</a></li>
+                    <li><a href="#prise-service">Prise de Service</a></li>
+                    <li><a href="#fin-service">Fin de Service</a></li>
+                    <li><a href="#vehicules">Véhicules</a></li>
+                    <li><a href="#garde">Enregistrement des Gardes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="reglement" class="section-content">
+            <div class="container">
+                <h2>Règlement</h2>
+                <p>Règlement de la Caserne de Lyon
+                    1. Respect et Comportement
+
+                    Chaque membre de la caserne doit faire preuve de respect et de courtoisie envers ses collègues et les citoyens.
+                    Les comportements inappropriés, les insultes, et les conflits personnels ne seront pas tolérés.
+
+
+                    2. Punctualité et Assiduité
+
+                    Les sapeurs-pompiers doivent respecter les horaires de service et les périodes de garde.
+                    En cas de retard ou d'absence, il est impératif d'en informer le responsable de la caserne dans les plus brefs délais.
+
+
+                    3. Equipement et Tenue
+
+                    L'uniforme doit être porté correctement en tout temps pendant les heures de service.
+                    Les équipements doivent être maintenus en bon état et prêts à être utilisés à tout moment.
+
+
+                    4. Utilisation des Véhicules
+
+                    Les véhicules de la caserne doivent être utilisés uniquement pour des interventions officielles ou des missions autorisées.
+                    Chaque utilisation des véhicules doit être enregistrée et les états des véhicules doivent être régulièrement vérifiés.
+
+
+                    5. Sécurité
+
+                    Les protocoles de sécurité doivent être suivis rigoureusement lors des interventions.
+                    Les membres doivent s'assurer que toutes les procédures de sécurité sont respectées pour protéger la vie et les biens.
+
+
+                    6. Formation et Développement
+
+                    Tous les sapeurs-pompiers doivent participer aux formations régulières pour maintenir et améliorer leurs compétences.
+                    La formation continue est essentielle pour garantir la compétence et l'efficacité de l'équipe.
+
+
+                    7. Procédures de Prise et de Fin de Service
+
+                    Les procédures de prise et de fin de service doivent être suivies scrupuleusement.
+                    Les heures de service doivent être correctement enregistrées et communiquées.
+
+
+                    8. Communication
+
+                    Toute information importante ou changement dans les procédures doivent être communiqués à l'équipe en temps utile.
+                    Les rapports d'incidents doivent être remplis de manière précise et complète.
+
+
+                    9. Respect des Régulations
+
+                    Les membres doivent se conformer à toutes les régulations locales et nationales applicables aux services d'urgence.
+                    </p>
+            </div>
+        </section>
+
+        <section id="prise-service" class="section-content">
+            <div class="container">
+                <h2>Prise de Service</h2>
+                <form id="prise-service-form">
+                    <label for="nom">Nom du Sapeur-Pompier:</label>
+                    <input type="text" id="nom" name="nom" required>
+                    <button type="submit">Enregistrer</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="fin-service" class="section-content">
+            <div class="container">
+                <h2>Fin de Service</h2>
+                <form id="fin-service-form">
+                    <label for="nom-fin">Nom du Sapeur-Pompier:</label>
+                    <input type="text" id="nom-fin" name="nom-fin" required>
+                    <button type="submit">Enregistrer</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="vehicules" class="section-content">
+            <div class="container">
+                <h2>Véhicules de la Caserne</h2>
+                <div class="vehicle-status" id="EP">
+                    <span>EP - Échelle Pivotante</span>
+                    <button class="vehicle-button">Disponible</button>
+                </div>
+                <div class="vehicle-status" id="VSAV">
+                    <span>VSAV - Véhicule de Secours et d'Assistance aux Victimes</span>
+                    <button class="vehicle-button">Disponible</button>
+                </div>
+                <div class="vehicle-status" id="FPT"
+                <button type="v"
+            </div>
+        </section>
+
+        <section id="garde" class="section-content">
+            <div class="container">
+                <h2>Enregistrement des Gardes</h2>
+                <form id="garde-form">
+                    <label for="nom-garde">Nom du Sapeur-Pompier:</label>
+                    <input type="text" id="nom-garde" name="nom-garde" required>
+                    <label for="horaire-garde">Horaire:</label>
+                    <input type="text" id="horaire-garde" name="horaire-garde" required>
+                    <button type="submit">Enregistrer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
